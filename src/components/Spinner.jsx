@@ -2,7 +2,7 @@ import { BarLoader } from 'react-spinners'
 
 
 
-const Spinner = ({ color = 'blue', size = '150' }) => {
+const Spinner = ({ color = 'blue' }) => {
 
     const override = {
         display: 'block',
