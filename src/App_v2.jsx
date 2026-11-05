@@ -27,7 +27,6 @@ const App = () => {
 
         const data = await res.json();
 
-        console.log(data);
         setCoins(data);
 
       } catch (error) {

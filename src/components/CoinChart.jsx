@@ -42,8 +42,6 @@ const CoinChart = ({ coinId }) => {
                 }
             ));
 
-            console.log(prices)
-
             setChartData({
                 datasets: [
                     {
