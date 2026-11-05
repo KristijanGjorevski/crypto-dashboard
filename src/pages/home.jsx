@@ -33,9 +33,9 @@ export const HomePage = ({
             case 'price_asc':
                 return a.current_price - b.current_price
             case 'change_desc':
-                return b.change_percentage_24h - a.change_percentage_24h
+                return b.price_change_percentage_24h - a.price_change_percentage_24h
             case 'change_asc':
-                return a.change_percentage_24h - b.change_percentage_24h
+                return a.price_change_percentage_24h - b.price_change_percentage_24h
             default:
                 return 0;
         }

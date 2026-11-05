@@ -9,8 +9,8 @@ const SortInput = ({ onSort, sort }) => {
                 <option value="market_cap_asc">Cap asscending</option>
                 <option value="price_desc">Price descending</option>
                 <option value="price_asc">Price ascending</option>
-                <option value="market_cap_change_24h_desc">24h descending</option>
-                <option value="market_cap_change_24h_asc">24h ascending</option>
+                <option value="change_desc">24h descending</option>
+                <option value="change_asc">24h ascending</option>
             </select>
         </div>
     )
